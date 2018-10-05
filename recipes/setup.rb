@@ -4,8 +4,8 @@
 #
 # Copyright:: 2018, The Authors, All Rights Reserved.
 
-execute "yum update" do
-	command "yum update"
+execute "apt-get update" do
+	command "apt-get update"
 end
 
 packages = ['vim', 'curl', 'python3', 'python3-pip']
