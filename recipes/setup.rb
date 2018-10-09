@@ -14,3 +14,7 @@ packages.each do |package|
 		action :install
 	end
 end
+
+execute "pip3 install" do
+	command "pip3 install -r requirements.txt"
+end
